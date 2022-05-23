@@ -1,0 +1,16 @@
+#first-p {
+    font-weight: 800;
+}
+
+.finerprint {
+    font-size: 15px;
+    font-family:'Courier New', Courier, monospace'
+}
+
+p {
+    color: brown;
+}
+
+* {
+    padding: 2px;
+}

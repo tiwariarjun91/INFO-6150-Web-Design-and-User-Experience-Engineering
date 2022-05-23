@@ -1,0 +1,35 @@
+@import 'layout.css';
+
+
+
+.container {
+   
+    border : 2px solid black;
+    position : relative;
+}
+
+.static {
+    top : 25px;
+    left : 30px;
+    position : static;
+}
+
+.relative{
+    top : 55px;
+    left : 60px;
+    position : relative;
+    background-color: aqua;
+    z-index: -1;
+}
+
+.absolute {
+    position : absolute;
+}
+
+.fixed{
+    position : fixed;
+}
+
+.sticky{
+    position : sticky;
+}

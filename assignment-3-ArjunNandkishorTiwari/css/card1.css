@@ -1,0 +1,42 @@
+
+/* Parent div */
+
+div.cardParent{
+    background-color: antiquewhite;
+    border-radius: 20px;
+    margin: 2px;
+    height: 270px;
+    width: 1000px;
+    position: relative;
+    left: 160px;
+    
+}
+/* img class */
+img.card1{
+    height: 265px;
+    width : 990px;
+    position: absolute;
+    
+   
+
+
+}
+/* Button styling*/
+input#viewAll{
+    position: relative;
+    left: 92px;
+    background-color: blue;
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+    color: white;
+}
+/* Button div */
+div.viewAll{
+    position: relative;
+    left: 400px;
+
+
+
+}
+

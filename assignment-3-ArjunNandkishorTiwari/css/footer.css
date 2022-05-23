@@ -1,0 +1,123 @@
+
+/* Parent div */
+div.footer1{
+   
+    position: relative;
+    width: 1520px;
+    height : 520px;
+    float:left;
+
+}
+
+footer{
+    position: relative;
+}
+/* divs are nubered in order of the div tags */
+div.footer2{
+    position : absolute;
+    float : left;
+    top : 490px
+  
+}
+
+div.parentFooter{
+    position: relative;
+    height: 500px;
+    width : 1500px;
+}
+
+div.footer3{
+    float: left;
+    position: absolute;
+    top:500px;
+    left : 55px;
+}
+
+div.footer4{
+    float: left;
+    position: absolute;
+    left: 900px;
+    top: 500px;
+}
+
+div.footer5 {
+    float: left;
+    position: absolute;
+    top: 10px;
+    left: 90px;
+}
+
+div.footer6{
+    float: left;
+    position: absolute;
+    top: 70px;
+    left: 250px;
+    opacity: 1;
+}
+
+div.footer7{
+    float: left;
+    position: absolute;
+    top: 140px;
+    left: 220px;
+    opacity: 1;
+}
+
+div.footer8{
+    float: left;
+    position: absolute;
+    top: 400px;
+    left: 220px;
+    opacity: 1;
+}
+
+div.footer9{
+    float: left;
+    position: absolute;
+    top: 400px;
+    left: 300px;
+    opacity: 1;
+}
+
+div.footer10{
+    float: left;
+    position: absolute;
+    top: 400px;
+    left: 380px;
+    opacity: 1;
+}
+
+div.footer11{
+    float: left;
+    position: absolute;
+    top: 400px;
+    left: 460px;
+    opacity: 1;
+}
+
+div.footer12 {
+    float: left;
+    position: absolute;
+    top: 25px;
+    left: 600px;
+    opacity: 1;
+    
+}
+
+div.footer12 a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+div.footer13 {
+    float: left;
+    position: absolute;
+    margin-top: 25px;
+    left: 1000px;
+    opacity: 1;
+}
+
+div.footer13 a{
+    color: aliceblue;
+    text-decoration: none;
+}

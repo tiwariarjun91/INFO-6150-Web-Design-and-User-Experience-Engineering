@@ -1,0 +1,6 @@
+DOM
+not able to see the calls
+
+How does the browser interpret the css file, particulrly the selectors
+
+Combinator lets you select family

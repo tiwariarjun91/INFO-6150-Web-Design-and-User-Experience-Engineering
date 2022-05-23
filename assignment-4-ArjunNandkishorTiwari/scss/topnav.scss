@@ -1,0 +1,142 @@
+@use 'sass:color';
+
+$topParentHeight : 100px;
+
+// Sass Operations used in this file :- 
+// Variables
+// Mathematical operations
+// Nesting
+// calc function to calculate pixel
+
+.navbarTop{
+    // position: fixed;
+    // z-index: 999;
+    // top: 0;
+   
+}
+
+
+
+nav{
+    position: fixed;
+    z-index: 999;
+
+}
+
+div.TopParent{
+    height: $topParentHeight;
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: red; */
+    padding: 10px;
+    margin: 10px;
+    position: relative ;
+    // top: 0;
+    // transform: translateX(-50%);
+    // z-index: 999;
+}
+
+
+
+    
+
+
+div.TopChild {
+    padding: 5px;
+    float: left;
+    height: $topParentHeight - 10; //90px
+    width: $topParentHeight * 5; //500px
+}
+
+
+div.TopGrandChild {
+    padding: 2px;
+    height: $topParentHeight - 60; //40px
+    // width: $topParentHeight + 390; //490px
+    width : calc($topParentHeight*5 - 10px);
+
+}
+
+div.TopGreatGrandChild {
+    float: left;
+}
+
+div#TopChildleft{
+    max-height: fit-content;
+   
+}
+
+div#TopChildright{
+    
+    
+    float: right;
+}
+
+div#TopGrandChildTop{
+    li{
+    float: left;
+}
+    
+   
+}
+
+div#TopGrandChildBottom{
+    background-color: azure;
+    position: relative;
+    right: 180px;
+}
+// /* Unordered List */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+}
+// /* Styling list elements */
+li.TopGrandChildTop {
+    float: left;
+
+
+    a {
+            display: block;
+            color: black;
+            text-align: center;
+            text-decoration: none;
+            padding: 10px;
+          
+    }
+
+
+    a:hover {
+            background-color: red;
+        }
+
+
+   
+            
+
+
+}
+
+
+
+button.TopGrandChildTop {
+    margin-top: 20%;
+    background-color: #008CBA;
+    font-size: 12px;
+    top: 30%;
+        
+    z-index: 2;
+
+    button:hover {
+        background-color: red;
+    }
+    }   
+
+
+
+
+
+
+

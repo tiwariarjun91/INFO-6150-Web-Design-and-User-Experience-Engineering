@@ -1,0 +1,19 @@
+{
+  "name": "lecture-4-lab-arjunnandkishortiwari",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "npx sass main.scss dist/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-neu:neu-mis-info6150-spring-2022/lecture-4-lab-ArjunNandkishorTiwari.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.49.7"
+  }
+}

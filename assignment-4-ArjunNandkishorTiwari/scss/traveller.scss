@@ -1,0 +1,89 @@
+div.traveller{
+    position:relative;
+    height: 300px;
+    display: flex;
+    /* background-image: linear-gradient(rgb(41, 231, 238),white); */
+    
+}
+
+div.blueTraveller{
+   margin-left: 50px;
+    
+    
+    
+    width:auto;
+   
+
+}
+
+
+
+div.liteblueTraveller{
+    position: absolute;
+   
+    width: auto;
+    
+    
+    float: left;
+    left: 40px;
+
+}
+
+.img2{
+    position: absolute;
+   
+    width: auto;
+    
+    
+    float: left;
+    left: 600px;
+    top: 200px;
+
+}
+
+.img3{
+    position: absolute;
+   
+    width: auto;
+    
+    
+    float: left;
+    left: 800px;
+    top: 120px;
+
+
+}
+
+div.img4{
+    position: absolute;
+   
+    width: auto;
+    
+    
+    float: left;
+    left: 80px;
+    top: 120px;
+
+}
+
+.img4 h1{
+    color: white;
+    
+
+}
+
+.img4 h2{
+    color: white;
+    
+
+}
+
+input#CTA{
+    position: relative;
+    left: 92px;
+    background-color: blue;
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+    color: white;
+}

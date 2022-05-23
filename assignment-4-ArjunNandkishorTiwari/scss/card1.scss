@@ -1,0 +1,101 @@
+@import 'cardBorder';
+
+@mixin cardParent($height, $width, $margin) {
+    height  : $height;
+    width : $width;
+   
+    margin : $margin;
+   
+   
+
+    
+}
+
+
+.cardParent1{
+    @include cardParent(270px, 1020px,2px );
+    @extend .borderCardParent;
+    display: flex;
+    position: relative;
+    left : 125px;
+}
+
+.card1{
+    height : 200px;
+    width : 300px;
+    @extend .borderCardChild;
+    flex: 1;
+    margin-left: 10px;
+    margin-right : 10px;
+    margin-top : 30px;
+
+    a:link {
+                text-decoration: none;
+                color: rgb(17, 24, 116);
+              }
+        
+        
+              a:visited {
+                text-decoration: none;
+                color: green;
+              }
+        
+        
+        
+             a:hover {
+                text-decoration: underline;
+                color: rgb(131, 208, 231);
+              }
+        
+        
+            a:active {
+                text-decoration: underline;
+                color: blue;
+              }
+        
+        
+        
+              p {
+                color:rgb(14, 99, 52);
+            }
+    
+}
+
+
+input#viewAll{
+    position: relative;
+    left: 92px;
+    background-color: blue;
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+    color: white;
+    top: 450;
+}
+/* Button div */
+div.viewAll{
+    
+    position: relative;
+    left: 400px;
+
+
+
+}
+
+
+
+
+// @import 'card2';
+// @import 'cardBorder';
+
+// .cardParent1{
+//     @extend .borderCardParent;
+//     @include cardParent(270px, 1000px, 2px, 150px);;
+//     display: flex;
+// }
+
+// .card1{
+//     @extend .borderCardChild;
+//     flex: 1;
+    
+// }

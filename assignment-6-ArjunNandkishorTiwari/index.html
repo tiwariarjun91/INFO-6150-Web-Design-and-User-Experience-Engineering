@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="dist/main.css">
+</head>
+<body>
+
+    <!-- Main container -->
+    <div id="container">
+        <!-- div for options that is to be displayed depending on the state of button -->
+        <div class="options">
+            <h1>TODO App</h1>
+            <h6></h6>
+            <h5 id = "titlehead"></h5>
+            <h5 id = "descriptionhead"></h5>
+            <h5 id = "datehead"></h5>
+            <h5 id = "timehead"></h5>
+            <!-- this part is only displayed when the button is clicked -->
+            <div id = "noDisplay">
+                <input type="text" id="title">
+                <input type="text" id="description">
+                <input type="date" id="date">
+                <input type="time" id="time">
+                <button type="button" id="add">Add Task</button>
+
+            </div>
+            <!-- onlclick mehtod to display add data options -->
+            <button onclick="displayHidden()" id = "show">Show Add Options</button>
+            <button type="button" id="delete">Remove Done Task</button>
+            <button type="button" id="display">Display Data</button>
+        </div>
+        <div>
+            <ul id="list">
+                <!-- <li class="mycheck"><input type="checkbox"  id="check" checked><label>Complete Web design assignment</label></li>
+                <li class="mycheck"><input type="checkbox"  id="check" ><label>Complete AED assignment</label></li> -->
+
+            </ul>
+        </div>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+@import 'layout.css';
+
+[data] {
+    padding: 10px ;
+}
+
+[data="fruit"]{
+    font-weight : bold;
+}
+
+[data^="blue"]{
+    color : #232426;
+}
+
+[data$="fruit"]{
+    color : #35d347;
+}
+
+[data*="berry"]{
+    font-size: 20px;
+}

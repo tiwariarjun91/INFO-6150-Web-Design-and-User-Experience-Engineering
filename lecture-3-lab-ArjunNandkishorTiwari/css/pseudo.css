@@ -1,0 +1,26 @@
+@import 'layout.css';
+
+.section {
+    padding: 10px;
+    font-size: 24px;
+    width: 200px;
+    height: 300px;
+}
+
+.section:hover{
+    background-color: azure;
+    cursor: pointer;
+}
+
+.section::first-letter{
+    font-size: 36px;
+}
+
+.section::selection{
+    background-color: rgb(210,154, 77);
+}
+
+.section, p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+

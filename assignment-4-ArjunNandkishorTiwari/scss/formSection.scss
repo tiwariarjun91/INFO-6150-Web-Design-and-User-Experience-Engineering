@@ -1,0 +1,240 @@
+
+
+
+@mixin bodypart($height, $width, $position){
+    height : $height;
+    width : $width;
+    position : $position;
+}
+
+@mixin posTop($posiiton, $top){
+    position: $posiiton;
+    top: $top ;
+}
+
+@mixin posLeft($position, $left){
+    position : $position;
+    left : $left;
+}
+
+div.FormParent {
+    height : 650px;
+    /* border-width: 2px; */
+    border-style: solid;
+    /* border-color: black; */
+    margin: 10px;
+    background-image: linear-gradient(rgb(41, 231, 238),white);
+    position: relative;
+    // top: 120px;
+   
+
+}
+
+div.Child-Form{
+
+    @include bodypart(460px, 450px, absolute );
+    // height : 460px;
+    // width : 450px;
+    background-color: white;
+    border-radius: 25px; 
+    /* border-color: black; */
+    // position : absolute;
+    left: 160px;
+    top: 80px;
+}
+
+
+
+
+div.Child-Station{
+    @include bodypart(560px, 880px ,relative );
+    // height : 560px;
+    // width : 880px;
+    // position : relative;
+    /* background-color: red; */
+    /* border-width: 2px; */
+    /* border-color: black; */
+    top : 40px;
+    left: 320px;
+}
+
+label#input {
+    @include posTop(relative, 5px );
+    // position: relative;
+    // top: 5px;
+}
+
+label#to {
+    @include posTop(relative, 5px )
+    // position: relative;
+    // top: 5px;
+}
+
+/* Styling button */
+
+input#input {
+    @include posTop(relative, 5px );
+    // position: relative;
+    // top : 5px;
+}
+
+form.Child-ActualForm{
+    @include posTop(relative, 10px );
+    // position: relative;
+    // top: 10px;
+}
+
+ul.navList{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+
+
+li.navList{
+    float: left;
+    
+}
+
+li.navList a{
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+
+
+a.navList:hover {
+    background-color: green;
+}
+
+div.navBar{
+    background-color: blue;
+    border-radius: 20px;
+    position: relative;
+    width: 400px;
+    left: 25px;
+}
+
+div.topLabel{
+    @include posLeft(relative, 12px );
+    // position: relative;
+    // left: 12px;
+    
+}
+
+div.viaAvoid{
+    @include posLeft(relative, 15px );
+    // position: relative;
+    // left: 15px;
+}
+
+label.out{
+    @include posLeft(relative, 12px );
+    // position: relative;
+    // left: 25px;
+}
+
+label.return{
+    @include posLeft(relative,165px );
+    // position: relative;
+    // left: 165px;
+}
+
+input#Out{
+    @include posLeft(relative, 40px );
+    // position: relative;
+    // left: 40px;
+}
+
+input#In{
+    @include posLeft(relative, 105px );
+    // position: relative;
+    // left: 105px;
+}
+
+label.LeavingAt1{
+    @include posLeft(relative, 18px );
+    
+}
+
+input#Leavingat{
+    @include posLeft(relative, 25px );
+    // position: relative;
+    // left: 25px;
+}
+
+label.LeavingAt2{
+    @include posLeft(relative, 46px );
+    // position:relative;
+    // left: 46px;
+}
+
+input#LeavingatReturn{
+    @include posLeft(relative, 65px );
+    // position: relative;
+    // left: 65px;
+}
+
+label.Passenger{
+    @include posLeft(relative, 15px );
+    // position: relative;
+    // left: 15px;
+}
+
+select#Passenger{
+    @include posLeft(relative, 35px );
+    // position: relative;
+    // left: 35px;
+}
+
+input#submit{
+    @include bodypart(35px, 250px, relative);
+    // position: relative;
+    left: 92px;
+    background-color: blue;
+    border-radius: 20px;
+    // width: 250px;
+    // height: 35px;
+
+}
+
+div.train{
+    @include posTop(absolute, 420px );
+    // position: absolute;
+    // top: 420px;
+    right: 112px;
+    
+}
+
+// /* Styling button */
+
+input#LearnMore{
+    @include bodypart(42px, 130px, absolute);
+    // width: 130px;
+    // height: 42px;
+    text-size-adjust: 38px;
+    color: white;
+    background-color: green;
+    border-radius: 20px;
+    // position: absolute;
+    top: 320px;
+    left: 760px;
+
+}
+
+// /* Styling heading */
+
+div.heading1{
+    @include posLeft(absolute, 760px);
+    // position:absolute;
+    color: white;
+    top: 120px;
+    // left : 760px;
+}

@@ -1,0 +1,4 @@
+/node_modules
+config/default.json
+
+#git rm --cached config/default.json once it is git added

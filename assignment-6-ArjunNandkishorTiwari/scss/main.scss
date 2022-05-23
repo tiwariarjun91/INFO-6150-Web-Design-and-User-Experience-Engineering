@@ -1,0 +1,152 @@
+// main body css
+
+body{
+    background-color: green;
+}
+
+// main container
+div#container {
+    width: 550px;
+    height : auto;
+    margin: 0 auto;
+    text-align: center;
+    background: white;
+    height: 700px;
+    overflow-y: auto;
+    color: black;
+    border: solid 5px #01a3a4;
+    border-radius: 5px;
+   
+   
+// css for heading 1
+    h1 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-transform: uppercase;
+
+    }
+// css for unordered list that will display tasks
+    ul {
+        margin-top: 50px;
+        padding-left: 0;
+
+    }
+// css for list element in 
+    ul li{
+        list-style: none;
+        border: 2px solid #b5c5dd;
+        width: 80%;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+        height: 40px;
+        margin: 5px auto;
+        text-align: left;
+    }
+// css for label in list element
+    ul li label{
+        margin : 0 auto;
+        vertical-align: middle;
+        height : 100%;
+        line-height: 40px;
+        font-size: 20px;
+        color: black;
+    }
+// css for checkbox and li
+     .mycheck {
+        opacity: 1;
+        border-radius: 10px;
+      }
+
+    ul li #check{
+        float : left;
+        width : 30px;
+        height : 30px;
+        margin : 2px;
+        border : 2px solid #b5c5dd;
+        position: relative;
+        -webkit-appearance: none;
+        outline : 0;
+
+
+
+    }
+
+    ul li #check:checked:after {
+        content: '\2714';
+        font-size: 20px;
+        position: absolute;
+        top : 0px;
+        left: 7px;
+        color : black;
+    }
+
+    ul li input[type="checkbox"]:checked + label{
+        text-decoration: line-through;
+        color: rgba(0,0,0,.3);
+    }
+
+  
+}
+
+// css for options class that contains buttons
+.options {
+    width : 65%;
+    margin : auto;
+    display : "none";
+}
+// css for input fields
+.options input{
+    width : 100%;
+    height : 32px;
+    font-size: 20px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border : 2px solid #b5c5dd;
+    border-radius: 5px;
+    
+
+
+}
+
+// css for button 
+.options button{
+    width : 100%;
+  
+    border : none;
+    height : 30px;
+    margin-top: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.options button:hover{
+    transform: scale(1.1);
+
+}
+.options button:focus{
+    outline : 0;
+}
+
+.option  #add{
+    background-color: #2980b9;
+}
+
+.option  #delete{
+    background-color: red;
+}
+
+.option  #display{
+    background-color: yellowgreen;
+}
+
+.option #show{
+    background-color: rgb(155, 155, 202);
+}
+
+
+div#noDisplay {
+    display : "none" !important;
+    visibility : hidden;
+}

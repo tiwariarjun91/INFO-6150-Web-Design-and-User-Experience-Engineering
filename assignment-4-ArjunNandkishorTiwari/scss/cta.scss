@@ -1,0 +1,126 @@
+/* Parent div */
+@function sum($numbers...) {
+  $sum: 0;
+  @each $number in $numbers {
+    $sum: $sum + $number;
+  }
+  @return $sum;
+}
+div.parentCTA{
+    width: sum(500px,250px,250px);
+    height: 450px;
+    /* border-width: 5px;
+    border-color: brown; */
+    margin: 5px;
+    /* background-color: antiquewhite; */
+    position: relative;
+    left: 150px;
+    /* border-style: solid; */
+    padding: 5px;
+}
+
+div.ChildCTA{
+    margin: 5px;
+    padding: 5px;
+    height: 420px;
+    width : 480px;
+    float: left;
+    /* background-color: aqua; */
+    position: relative;
+    border-radius: 15px;
+
+    a:visited {
+        text-decoration: none;
+        color: green;
+      }
+      a:hover {
+        text-decoration: underline;
+        color: rgb(131, 208, 231);
+      }
+
+      a {
+        
+        text-decoration: none;
+        color: black;
+    }
+
+    a:active {
+        text-decoration: underline;
+        color: blue;
+      }
+
+
+}
+
+input#CTA1{
+    position: relative;
+    left: 92px;
+    background-color: blue;
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+    color: white;
+}
+
+ img#CTA1{
+     position: relative;
+    left: 95px;
+}
+
+h1#CTA{
+    left: 25px;
+    position: relative;
+}
+
+
+
+ 
+  
+
+
+div.ctacard1{
+    position: relative;
+    height: 120px;
+    border-color: blue ;
+    border-width: 0.5px;
+    margin: 2px;
+    padding:1px;
+    border-radius: 15px;
+    border-style: solid;
+    text-size-adjust: 8px;
+
+    a:visited {
+        text-decoration: none;
+        color: green;
+        
+      }
+      a:hover {
+        text-decoration: underline;
+        color: rgb(131, 208, 231);
+      }
+
+      a:active {
+        text-decoration: underline;
+        color: blue;
+      }
+
+}
+div.ctacard2{
+    position: relative;
+    box-shadow: 10px 10px 5px grey;
+    height: 70px;
+    border-color: black;
+    border-width: 0.5px;
+    margin: 10px;
+    padding:1px;
+    border-radius: 15px;
+    border-style: solid;
+    text-align: center;
+
+}
+
+
+
+
+ 
+  

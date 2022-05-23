@@ -1,0 +1,95 @@
+
+/* Top Nav Bar */
+/* Parent div */
+div.TopParent {
+    height: 100px;
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: red; */
+    padding: 10px;
+    margin: 10px;
+    
+}
+/* Child div */
+div.TopChild {
+    padding: 5px;
+    float: left;
+    height: 90px;
+    width: 500px;
+}
+div.TopGrandChild {
+    padding: 2px;
+    height: 40px;
+    width: 490px;
+
+}
+
+div.TopGreatGrandChild {
+    float: left;
+}
+
+div#TopChildleft{
+    max-height: fit-content;
+   
+}
+
+div#TopChildright{
+    
+    
+    float: right;
+}
+
+div#TopGrandChildTop{
+    
+   
+}
+
+div#TopGrandChildBottom{
+    background-color: azure;
+    position: relative;
+    right: 180px;
+}
+/* Unordered List */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+}
+/* Styling list elements */
+li{
+    float: left;
+}
+/* Styling anchor tag */
+li.TopGrandChildTop a{
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+a.TopGrandChildTop:hover {
+    background-color: red;
+}
+
+button.TopGrandChildTop {
+    margin-top: 20%;
+    background-color: #008CBA;
+    font-size: 12px;
+    top: 30%;
+    
+    z-index: 2;
+}
+
+button.TopGrandChildTop:hover {
+    background-color: red;
+}
+
+
+
+
+
+

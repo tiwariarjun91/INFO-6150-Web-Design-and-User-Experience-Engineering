@@ -1,0 +1,30 @@
+body {
+    padding : 25px;
+}
+
+.container{
+    width : 100px;
+    height : 500px;
+    margin : auto;
+}
+
+.container button{
+    padding : 7px;
+    background-color: #17a042;
+    outline : none;
+    color : #0b3b1a;
+    border-radius: 5px;
+}
+
+.container button:hover{
+    
+    background-color: #106b2d;
+   
+}
+
+.container button:active{
+    
+    background-color: #0e5926;
+   
+}
+

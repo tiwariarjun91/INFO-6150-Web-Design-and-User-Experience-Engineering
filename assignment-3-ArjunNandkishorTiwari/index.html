@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/main.css">
+
+    </head>
+    <body>
+        <div class="TopParent">
+            <div class= "TopChild" id="TopChildleft">
+                <picture>
+                    <source media="(min-width:1000px)" srcset="homepage/homepage/Group 16059@2x.png">
+                    <source media="(min-width:400px)" srcset="homepage/homepage/Group 16059.png">
+                    <img src="homepage/homepage/Group 16059.png" alt="" width="280" height="70">
+                 </picture>
+            </div>
+            <div class="TopChild" id = "TopChildright">
+               
+                <div class="TopGrandChild" id="TopGrandChildTop">
+                    <div class="TopGreatGrandChild">
+                        <img src="homepage/homepage/gb.png" alt="" width="30" height="30">
+                        <img src="homepage/homepage/EN-USD.png" alt="" width="30" height="30">
+                        <img src="homepage/homepage/path.png" alt="" >
+
+                    </div>
+                    <div class="TopGreatGrandChild">
+                        <ul class="TopGrandChildTop">
+                            <li class="TopGrandChildTop">
+                                <a href="Business" class="TopGrandChildTop">Business</a>
+                            </li>
+                            <li class="TopGrandChildTop">
+                                <a href="Help" class="TopGrandChildTop">Help</a>
+                            </li>
+                            <li class="TopGrandChildTop">
+                                <a href="Register" class="TopGrandChildTop">Register</a>
+                            </li>
+                            <li>
+                                <a href="Signin"><button class="TopGrandChildTop">Sign in</button></a>
+                            </li>
+                        </ul>
+                        
+    
+                    </div>
+                    
+                </div>
+                <div class="TopGrandChild" id="TopGrandChildBottom">
+                    <ul class="TopGrandChildTop">
+                        <li class="TopGrandChildTop">
+                            <a href="UK Trains" class="TopGrandChildTop">UK Trains</a>
+                        </li>
+                        <li class="TopGrandChildTop">
+                            <a href="European Trains" class="TopGrandChildTop">European Trains</a>
+                        </li>
+                        <li class="TopGrandChildTop">
+                            <a href="Train Companies" class="TopGrandChildTop">Train Companies</a>
+                        </li>
+                        <li class="TopGrandChildTop">
+                            <a href="Train Companies" class="TopGrandChildTop">Train Companies</a>
+                        </li>
+                    </ul>
+                    
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="FormParent">
+            
+            
+            <div class="Child-Station">
+                <picture>
+                    <source media="(min-width:1000px)" srcset="homepage\homepage\MicrosoftTeams-image.png">
+                    <source media="(min-width:800px)" srcset="homepage\homepage\MicrosoftTeams-image.png">
+                    <img src="homepage/homepage/MicrosoftTeams-image.png" alt="" width="875" height="555">
+                 </picture>
+            </div>
+            <div class="Child-Form">
+               
+                    <!-- <form action="submit" method="get">
+                        <label for="input" id="input">Input</label>
+                        <input type="text" id="imput" name="input" value="placeholder" required>
+                        <label for="to"> To</label>
+                        <input type="text" id="input" name="to" value="placeholder" required> <br>
+
+                    </form> -->
+                    <form action="submit" method="get" class="Child-ActualForm">
+                        <br><br>
+                        <div class="topLabel">
+                            <label for="input" id="input"><strong>Input</strong></label>
+                            <input type="text" id="input" name="input" value="placeholder" required>
+                            <label for="to" id="to"> <strong>To</strong></label>
+                            <input type="text" id="input" name="to" value="placeholder" required>
+
+                        </div>
+                         <br><br>
+                        <!-- used picture element for displaying images with different resolutions depending on the size of window -->
+                        <div class="viaAvoid">
+                            <picture>
+                                <source media="(min-width:1000px)" srcset="homepage/homepage/1@2x.png">
+                                <source media="(min-width:800px)" srcset="homepage/homepage/1.png">
+                                <img src="homepage/homepage/1.png" alt="" width="20" height="20">
+                             </picture>
+                             <label for="via/avoid"><strong>via/avoid</strong></label>
+                             <Select name="via/avoid" id="via/avoid" optional>
+                                <option value="via">Via</option>
+                                <option value="avoid">Avoid</option>
+                             </Select>
+                             <input type="text" id="Station" name="Station" value="Placeholder">
+
+                        </div>
+                        <br><br>
+                        <div class="navBar">
+                            <ul class="navList">
+                                <li class="navList"><a href="One Way" class="navList"><strong>One Way</strong></a></li>
+                                <li class="navList"><a href="Return" class="navList"><strong>Return</strong></a></li>
+                                <li class="navList"><a href="Open Return" class="navList"> <strong>Open Return</strong></a></li>
+                                <li class="navList"><a href="Seasons" class="navList"><strong>Seasons</strong></a></li>
+                            </ul>
+
+                        </div><br>
+                        <!-- using label and inpur for form text fields responsible for taking input -->
+                        <label for="Out" class="out">Out</label>
+                        <label for="Return" class="return">Return</label> <br>
+                        <input type="date" name="Out" id="Out" required>  <input type="date" name="In" id="In" required> <br><br>
+                        <label for="Leaving at" class="LeavingAt1">Leaving at</label>
+                        <input type="time" name="Leaving at" id="Leavingat" required>
+                        <label for="Leaving at" class="LeavingAt2">Leaving at</label>
+                        <input type="time" name="Leaving at return" id="LeavingatReturn" required> <br><br>
+                        <label for="Add Passenger" class="Passenger">Add Passengers</label>
+                        <select name="Passenger" id="Passenger">
+                           <option value="Adult">Adult</option>
+                           <option value="Kids 16+">Kids 16+</option>
+                           <option value="Kids 18+">Kids 18+</option>
+                        </select>
+                        <br> <br>
+                        <input type="submit" value="Get Times & Tickets" id="submit">
+                     </form>
+                      
+               
+               
+            </div>
+
+            <div class="train">
+                <picture>
+                    <source media="(min-width:1000px)" srcset="homepage/homepage/trian_PNG-1.png">
+                    <source media="(min-width:800px )" srcset="homepage/homepage/trian_PNG-1.png">
+                    <img src="homepage/homepage/trian_PNG-1.png" alt="" height="170px" width="440px">
+                 </picture>
+            </div>
+
+           <a href=""><input type="button" value="Learn More" id="LearnMore"></a> 
+
+           <div class="heading1">
+            <h1 >Explore Europe effortlessly by <br> train and bus</h1>
+            <h3>Save 61% on average when you book in advance</h3>
+
+           </div>
+
+           
+
+        </div>
+
+        <div class="cardParent">
+            <!-- <div class="card1">
+                <picture>
+                    <source media="(min-width:1000px)" srcset="homepage/homepage/Group 16059@2x.png">
+                    <source media="(min-width:400px)" srcset="homepage/homepage/Group 16059.png">
+                    <img src="homepage/homepage/Group 16059.png" alt="" width="280" height="70">
+                 </picture>
+            </div> -->
+            <!-- <div class="card1"></div>
+            <div class="card1"></div> -->
+
+            <picture class="card1">
+                <!-- Used source eleemnt here in the picture tag for displaying media i.e pics -->
+                <source media="(min-width: 1000px)" srcset="homepage/homepage/Repeat Grid 17@2x.png">
+                <source media="(min-width: 800px)" srcset="homepage/homepage/Repeat Grid 17.png">
+                <img src="homepage/homepage/Repeat Grid 17.png" alt="" class="card1">
+             </picture>
+        </div><br><br>
+
+        <div class="viewAll">
+            <input type="button" value="View All" id="viewAll">
+        </div><br><br><br><br><br>
+
+        <div class="cardParent2">
+            <div class="card2">
+                <figure>
+                    <source media="min-width: 1000px" srcset="homepage/homepage/Ellipse 9.png">
+                    <source media="(min-width: 800px)" srcset="homepage/homepage/Ellipse 9@2x.png">
+                    <img src="homepage/homepage/Ellipse 9.png" alt="" width="35px" height="35px">
+                    <!-- used strong element to put emphasis on the text -->
+                    <figcaption><a href="Compare"><strong>Compare</strong></a></figcaption>
+                    <p>Compare cheap prices for train and bus tickets</p>
+                 </figure>
+            </div>
+            <div class="card2">
+                <figure>
+                    <source media="(min-width: 1000)" srcset="homepage/homepage/-train_90433@2x.png">
+                    <source media="(min-width: 800)" srcset="homepage/homepage/-train_90433.png">
+                    <img src="homepage/homepage/-train_90433.png" alt="" width="35px" height="35px">
+                    <!-- used figcaption element for displaying caption regarding the picture above -->
+                    <figcaption><a href="Travel"><strong>Travel</strong></a></figcaption>
+                    <p>Travel thousands of destinations in and across 45 countries</p>
+                 </figure>
+            </div>
+            <div class="card2">
+                <figure>
+                    <source media="(min-width: 1000px) " srcset="homepage/homepage/XMLID_91_@2x.png">
+                    <source media="(min-width: 800px)" srcset="homepage/homepage/XMLIT_91_.png">
+                    <img src="homepage/homepage/XMLID_91_.png" alt="" width="35px" height="35px">
+                    <figcaption><a href="Join People"><strong>Join People</strong></a></figcaption>
+                    <p>Join millions of people who use us everyday</p>
+                 </figure>
+            </div>
+            <div class="card2">
+                <figure>
+                    <source media="(min-width: 800px)" srcset="homepage/homepageEllipse 9.png">
+                    <source media="(min-width: 1000px)" srcset="homepage/homepage/Ellipse 9@2x.png">
+                    <img src="homepage/homepage/Ellipse 9.png" alt="" width="35px" height="35px">
+                    <figcaption><a href="Support"><strong>Support</strong></a></figcaption>
+                    <p>Customer service on hand every step of the way</p>
+                 </figure>
+            </div>
+            <div class="card2">
+                <figure>
+                    <source media="(min-width: 800px)" srcset="homepage/homepage/Ellipse 9.png">
+                    <source media="(min-width: 1000px)" srcset="homepage/homepage/Ellipse 9@2x.png">
+                    <img src="homepage/homepage/Ellipse 9.png" alt="" width="35px" height="35px">
+                    <!-- used strong element to put emphasis on the text -->
+                    <figcaption><a href="Customer"><strong>Customer</strong></a></figcaption>
+                    <p>Customer service on hand every step of the way</p>
+                 </figure>
+            </div>
+        </div>  <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <div class="traveller">
+            <div class="blueImage">
+                <figure>
+                    <source media="(min-width: 800px)" srcset="homepage/homepage/Rectangle 159.png">
+                    <source media="(min-width: 1000px)" srcset="homepage/homepage/Rectangle 159@2x.png">
+                    <img src="homepage/homepage/Rectangle 159.png" alt="" id="DarkBlueImage" width="1200px" >
+                    <!-- used strong element to put emphasis on the text -->
+                    
+                 </figure>
+
+            </div>
+            <div class="liteblueTraveller">
+                <figure>
+                    <source media="(min-width: 800px)" srcset="homepage/homepage/Rectangle 113.png">
+                    <source media="(min-width: 1000px)" srcset="homepage/homepage/Rectangle 113@2x.png">
+                    <img src="homepage/homepage/Rectangle 113.png" alt="" id="LiteBlueImage" width="1200px" >
+                    <!-- used strong element to put emphasis on the text -->
+                    
+                 </figure>
+            </div>
+            <div class="img2">
+                <picture>
+                    <source media="(min-width:1000px)" srcset="homepage/homepage/trian_PNG-1.png">
+                    <source media="(min-width:800px )" srcset="homepage/homepage/trian_PNG-1.png">
+                    <img src="homepage/homepage/trian_PNG-1.png" alt="" height="140px" width="640px">
+                 </picture>
+
+            </div>
+            <div class="img3">
+                <picture>
+                    <source media="(min-width: 800)" srcset="woman-hungarian-parliament-budapest-hungary-shutterstock_1118873774-1024x683.png">
+                    <source media="(min-width: 1000)" src="woman-hungarian-parliament-budapest-hungary-shutterstock_1118873774-1024x683@2x.png">
+                    <img src="homepage/homepage/woman-hungarian-parliament-budapest-hungary-shutterstock_1118873774-1024x683.png" width="350" height="350">
+                 </picture>
+            </div>
+            <div class="img4">
+                <h1>Explore Europe effortlessly<br> by train and bus</h1>
+                <h2>Save 61% on average when you book in advance</h2>
+                <input type="button" value="Get More Details" id="CTA">
+            </div>
+
+
+        </div> <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <div class="parentCTA">
+            <div class="ChildCTA">
+                <h1 id="CTA">We're here to help you</h1>
+                <p>Find clear <a href="FAQs">FAqs</a> online and customer service <br> available at the end of the phone seven days a week</p>
+                <picture>
+                    <source media="(min-width: 800)" srcset="homepage/homepage/illu_laptop_help.png">
+                    <source media="(min-width: 1000)" src="homepage/homepage/illu_laptop_help@2x.png">
+                    <img src="homepage/homepage/illu_laptop_help@2x.png" height="200px" width="200px" id="CTA1">
+                 </picture>
+                <h4><a href="CTA Button" id="CTA"><input type="button" value="CTA Button" id="CTA1"></a></h4>
+
+            </div>
+
+            <div class="ChildCTA">
+                <div class="ctacard1">
+                    <a href="link1">
+                        <p>Do I need to confirm in advance if travelling on a different trasin?</p>
+                     </a>
+                     <p>You don't need to let us know if you want to change trains,but you'll need to check <br> the terms of your ticket to see if it'll still be valid for a different train</p>
+                </div>
+                <div class="ctacard2">
+                    <a href="link2">
+                        <p>How much luggage can I take on the train?</p>
+                        
+                     </a>
+                     
+                </div>
+                <div class="ctacard2">
+                    <a href="link2">
+                        <p>How much luggage can I take on the train?</p>
+                     </a>
+                </div>
+                <div class="ctacard2">
+                    <a href="link2">
+                        <p>How much luggage can I take on the train?</p>
+                     </a>
+                </div>
+            </div>
+
+        </div><br><br><br><br><br><br><br><br><br>
+
+        <div class="socialParent">
+            <div class="socialChild">
+                <h1>Europe's leading train and <br> bus app</h1>
+         <p >Keep your trip on track with departure times, platform info, and tickets <br>in the palm of your hand. </p>
+         
+            <!-- used unordered list here to show elements that are not sequentional and dont have any predetermined order -->
+
+            <div class="imgtag">
+                <a href="">
+                    <picture>
+                        <source media="(min-width: 800)" srcset="homepage/homepage/Group 9691.png">
+                        <source media="(min-width: 1000)" srcset="homepae/homepage/Group 9691@2x.png">
+                        <img src="homepage/homepage/Group 9691.png" alt="" height="150px" width="150px">
+                        
+                     </picture>
+                </a>
+                
+                </div>
+
+                <div class="imgtag">
+                    <a href="">
+                        <picture>
+                            <source media="(min-width: 800)" srcset="homepage/homepage/Group 9693.png">
+                            <source media="(min-width: 1000)" srcset="homepage/homepage/Group 9693@2x.png">
+                            <img src="homepage/homepage/Group 9693.png" alt="" height="150px" width="150px">
+                            
+                         </picture>
+                    </a>
+                    
+
+                </div>
+              
+                 
+
+            
+            
+                 
+               
+
+            </div>
+            <div class="socialChild">
+                <picture>
+                    <source media="(min-width: 800)" srcset="homepage/homepage/mobile3.png">
+                    <source media="(min-width: 1000)" srcset="homepage/homepage/mobile3@2x.png">
+                    <img src="homepage/homepage/mobile3.png" alt="" height="360px" class="mobile">
+                    
+                 </picture>
+
+                
+                 <a href=""><picture>
+                    <source media="(min-width: 800px)" srcset="homepage/homepage/Group 9807.png">
+                    <source media="(min-width: 1000px)" srcset="homepage/homepage/Group 9807@2x.png">
+                    <img src="homepage/homepage/Group 9807.png" alt="" class="small2">
+                 </picture></a>
+
+                 <a href="">
+                    <picture>
+                        <source media="(min-width: 800px)" srcset="homepage/homepageGroup 9808.png">
+                        <source media="(min-width: 1000px)" srcset="homepage/homepage/Group 9808@2x.png">
+                        <img src="homepage/homepage/Group 9808.png" alt="" class="small1">
+                     </picture>
+                 </a>
+            
+            
+
+            </div>
+        </div><br><br><br><br><br><br>
+
+        <footer>
+            <div class="parentFooter">
+                <div class="footer1">
+                    <picture>
+                        <source media="(min-width: 1000px)" srcset="homepage/homepage/Path 2954@2x.png">
+                        <source media="(min-width: 800px)" srcset="homepage/homepage/Path 2954.png">
+                        <img src="homepage/homepage/Path 2954@2x.png" alt="" height="500px" width="1500px">
+                    </picture>
+                    
+                </div>
+                <div class="footer2">
+                    <picture>
+                        <source media="(min-width: 1000px)" srcset="homepage/homepage/Path 3005@2x.png">
+                        <source media="(min-width: 800px)" srcset="homepage/homepage/Path 3005.png">
+                        <img src="homepage/homepage/Path 3005@2x.png" alt="" height="50px" width="1500px">
+                    </picture>
+                </div>
+
+                <div class="footer3">
+                    <picture>
+                        <source media="(min-width: 1000px)" srcset="homepage/homepage/Copyright@2x.png">
+                        <source media="(min-width: 800px)" srcset="homepage/homepage/Copyright.png">
+                        <img src="homepage/homepage/Copyright@2x.png" alt="" height="20px" width="400px">
+                    </picture>
+
+
+                </div>
+
+                <div class="footer4">
+                    <picture>
+                        <source media="(min-width: 1000px)" srcset="homepage/homepage/Copyright-1@2x.png">
+                        <source media="(min-width: 800px)" srcset="homepage/homepage/Copyright-1.png">
+                        <img src="homepage/homepage/Copyright@2x.png" alt="" height="20px" width="200px">
+                    </picture>
+
+
+                </div>
+
+                <div class="footer5">
+                    <h2>
+                        <p><strong>We are happy when our customer are too</strong></p>
+                    </h2>
+                </div>
+
+                <div class="footer6">
+                    <picture>
+                        <source media="(min-width: 1000px)" srcset="homepage/homepage/Group 16060@2x.png">
+                        <source media="(min-width: 800px)" srcset="homepage/homepage/Group 16060.png">
+                        <img src="homepage/homepage/Group 16060@2x.png" alt="" width="250" height="50">
+                    </picture>
+                    
+                </div>
+
+                <div class="footer7">
+                    <picture>
+                        <source media="(min-width: 1000px)" srcset="homepage/homepage/Paragraph@2x.png">
+                        <source media="(min-width: 800px)" srcset="homepage/homepage/Paragraph.png">
+                        <img src="homepage/homepage/Paragraph@2x.png" alt="" width="350" height="250">
+                    </picture>
+
+                </div>
+
+                
+                <div class="footer8">
+                    <picture>
+                        <source media="(min-width: 1000px)" srcset="homepage/homepage/Group 9740@2x.png">
+                        <source media="(min-width: 800px)" srcset="homepage/homepage/Group 9740.png">
+                        <img src="homepage/homepage/Group 9740@2x.png" alt="" width="40" height="40">
+                    </picture>
+
+                </div>
+
+                <div class="footer9">
+                    <picture>
+                        <source media="(min-width: 1000px)" srcset="homepage/homepage/Group 9741@2x.png">
+                        <source media="(min-width: 800px)" srcset="homepage/homepage/Group 9741.png">
+                        <img src="homepage/homepage/Group 9741@2x.png" alt="" width="40" height="40">
+                    </picture>
+
+                </div>
+
+                <div class="footer10">
+                    <picture>
+                        <source media="(min-width: 1000px)" srcset="homepage/homepage/Group 9742@2x.png">
+                        <source media="(min-width: 800px)" srcset="homepage/homepage/Group 9742.png">
+                        <img src="homepage/homepage/Group 9742@2x.png" alt="" width="40" height="40">
+                    </picture>
+
+                </div>
+
+                <div class="footer11">
+                    <picture>
+                        <source media="(min-width: 1000px)" srcset="homepage/homepage/Group 9743@2x.png">
+                        <source media="(min-width: 800px)" srcset="homepage/homepage/Group 9743.png">
+                        <img src="homepage/homepage/Group 9743@2x.png" alt="" width="40" height="40">
+                    </picture>
+
+                </div>
+
+                <div class="footer12">
+                    <ul>
+                        <li><a href=" ">About Greenline</a></li><br><br><br>
+                        <li><a href=" ">News</a></li><br><br><br>
+                        <li><a href=" ">Investors</a></li><br><br><br>
+                        <li><a href=" ">Careers</a></li><br><br><br>
+                        <li><a href=" ">Greenline Partner Solutions</a></li><br><br><br>
+                        <li><a href=" ">Affiliates and Patnerships</a></li><br><br><br>
+                        <li><a href=" ">Terms and conditions / Security</a></li><br><br><br>
+                        <li><a href=" ">Privacy / Cookies</a></li><br><br><br>
+                        <li><a href=" ">Modern Slavery Act (UK)</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer13">
+                    <ul>
+                        <li ><a href=" ">Help and useful information</a></li><br><br><br>
+                        <li ><a href=" ">News</a></li><br><br><br>
+                        <li ><a href=" ">Investors</a></li><br><br><br>
+                        <li ><a href=" ">Careers</a></li><br><br><br>
+                        <li ><a href=" ">Greenline Partner Solutions</a></li><br><br><br>
+                        <li ><a href=" ">Affiliates and Patnerships</a></li>
+        
+                    </ul>
+                </div>
+
+
+
+            </div>
+            
+            
+        </footer>
+        
+
+    </body>
+
+</html>
